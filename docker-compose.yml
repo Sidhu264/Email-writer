@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    environment:
+      - GEMINI_KEY=${GEMINI_KEY}
+      - GEMINI_URL=${GEMINI_URL}
+    env_file:
+      - .env

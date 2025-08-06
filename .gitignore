@@ -1,0 +1,17 @@
+# Java/Maven
+/backend/target/
+/backend/.idea/
+/backend/.mvn/wrapper/maven-wrapper.jar
+
+# Node/React
+/frontend/email-writer-react/node_modules/
+/frontend/email-writer-react/build/
+
+# Chrome extension packaging
+/email-writer-ext/*.zip
+
+# System/IDE
+.DS_Store
+*.log
+.env
+.env.*
